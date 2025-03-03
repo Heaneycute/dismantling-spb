@@ -1,0 +1,47 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  color: rgba(48, 48, 48, 1);
+  padding: 0px 0px 1.04vw 2.08vw;
+  width: 100%;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text p {
+  font-family: "centurygothic";
+  font-size: 2.6vw;
+  font-weight: 400;
+  line-height: 2.39vw;
+}
+
+.strong-text {
+  display: flex;
+  font-size: 2.6vw;
+  margin-bottom: 1.04vw;
+}
+
+.about-text strong {
+  width: 1vw;
+  aspect-ratio: 1;
+  font-family: "BuyanRegular";
+  font-size: 5.2vw;
+  font-weight: bold;
+  line-height: 5.72vw;
+  margin-right: 7.29vw;
+}
+
+.about-image img {
+  width: 44.27vw;
+  height: 18.48vw;
+  border-radius: 2.08vw 0px 0px 2.08vw;
+}

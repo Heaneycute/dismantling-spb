@@ -1,0 +1,131 @@
+.services-section {
+  padding: 3.12vw 0 2.08vw 2.08vw;
+  text-align: center;
+  position: relative;
+}
+
+.services-section h2 {
+  font-family: "BuyanRegular";
+  font-size: 5.2vw;
+  font-weight: 400;
+  line-height: 5.67vw;
+  text-align: left;
+  color: rgba(48, 48, 48, 1);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.56vw;
+}
+
+.service-item {
+  width: 100%;
+  max-width: 48.17vw;
+  position: relative;
+  border-radius: 2.08vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  flex-shrink: 0;
+}
+
+.service-image {
+  width: 100%;
+  max-width: 45.57vw;
+  height: 23.33vw;
+  border-radius: 2.08vw;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.service-title {
+  position: absolute;
+  bottom: 1.04vw;
+  left: 1.04vw;
+  color: rgba(255, 255, 255, 1);
+  font-family: "centurygothic";
+  font-weight: 400;
+  font-size: 2.6vw;
+  line-height: 2.39vw;
+  text-align: left;
+  transition: opacity 0.3s ease;
+}
+
+.service-title.shift-up {
+  bottom: 3.12vw;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 1vw 0;
+}
+
+.service-item button {
+  font-family: "centurygothic";
+  font-weight: 400;
+  font-size: 2.6vw;
+  line-height: 2.4vw;
+  padding: 0.6vw;
+  text-align: center;
+  background-color: #84aac8;
+  border: none;
+  width: 38vw;
+  height: 3.85vw;
+  border-radius: 1.92vw;
+  color: rgba(255, 255, 255, 1);
+  transition: transform 0.3s ease;
+}
+
+.service-item button:hover {
+  background-color: #5e7a98;
+  transform: scale(1.05);
+}
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.service-modal {
+  width: 44.27vw;
+  height: 15.62vw;
+  background: rgba(132, 170, 200, 0.35);
+  border-radius: 1.45vw;
+  padding: 2.34vw;
+  color: rgba(48, 48, 48, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1500;
+  transition: opacity 0.3s ease;
+  margin-top: 1vw;
+}
+
+.service-modal p {
+  font-family: "centurygothic";
+  font-weight: 400;
+  text-align: left;
+  font-size: 1.56vw;
+  line-height: 1.97vw;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1.2vw;
+  right: 3vw;
+  font-size: 2.08vw;
+  color: #fff;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  color: #ff0000;
+}
