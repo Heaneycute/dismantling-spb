@@ -65,6 +65,15 @@ const HeroSection: React.FC = memo(() => {
           </div>
         </div>
       </div>
+      <a
+        href="https://t.me/Snos_SPB"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hero-button"
+        aria-label="Рассчитать стоимость"
+      >
+        Рассчитать стоимость
+      </a>
     </section>
   );
 });
